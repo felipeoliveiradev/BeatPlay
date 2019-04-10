@@ -25,6 +25,7 @@ export const Controls = styled.div`
   }
 `;
 export const Current = styled.div`
+  min-width: 220px;
   display: flex;
   align-items: center;
 
