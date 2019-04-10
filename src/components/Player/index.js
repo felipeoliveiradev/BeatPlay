@@ -100,7 +100,7 @@ const Player = ({
       <img src={VolumeIcon} alt="Volume" />
       <Slider
         railStyle={{ background: '#404040', borderRadius: 10 }}
-        trackStyle={{ background: '#FFF' }}
+        trackStyle={{ background: '#FFFfff' }}
         handleStyle={{ display: 'none' }}
         value={player.volume}
         onChange={setVolume}
